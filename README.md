@@ -1,42 +1,44 @@
-# Discord.js v14 Moderation Bot
-<h5>The advanced Discord Moderation bot built with discord.js v14.</h5>
+# Discord.js v14 Moderasyon Botu
+<h5>Discord.js v14 kütüphanesi ile yapılmış gelişmiş Discord moderasyon botu.</h5>
 
-<h2>Discord.js v14 Moderation Bot</h2>
-The best Discord Moderation bot that I have ever created, all made with discord.js version 14 and discord.js-v14-helper. This project requires MongoDB to connect to the database, so make sure to get a MongoDB URI! You can create many commands as you want to improve your bot, just make sure that your bot won't go crazy!
+<h2>Discord Slash Komutlu Moderasyon Botu</h2>
+Tamamı discord.js v14 ve discord.js-v14-helper ile yapıldı. Bu proje MongoDB'nin veritabanına bağlanmasını gerektiriyor, bu nedenle bir MongoDB URI'si aldığınızdan emin olun! Botunuzu geliştirmek için istediğiniz kadar komut oluşturabilirsiniz, yeter ki botunuzun çıldırmayacağından emin olun!
 
-#### Warning
-This project is made for single guild, and not a multi-guild one. You can develop it a little further and turn it into multiple servers.
+# Projeyi Kurmak için
 
-# Setup the project
-
-## Dependencies installation:
-Firstly, install `package-lock.json` file:
+## Modülleri indirin:
+İlk önce, `package-lock.json` dosyasını indirin:
 ```shell
 npm init -y
 ```
 
-Then install the required dependencies:
+Gerekli modülleri indirin:
 
 ```shell
-npm i discord.js mongoose
+npm install
 ```
+sadece bu komutu yazarak bütün modülleri indirebilirsiniz, modüllerin isimlerini tek tek yazmanızın lüzumu yok :)
 
-## Start the project
-The setup for now is for [Visual Studio Code](https://code.visualstudio.com/) users only. If you are a repl.it user and non-beginner programmer, you can read the setup below but you have to edit the Environment processing for MongoDB and the bot token.
-- I. Install [Visual Studio Code](https://code.visualstudio.com/).
-- II. Install [node.js](https://nodejs.org/en/download/).
-- III. Open command propmt and then type `node -v` and make sure that you have installed node.js version **16.9.0** or above.
-- IV. [Download the project](https://github.com/justthendra/discord.js-v14-moderation-template) and extract the folder from .zip folder to a normal folder.
-- V. Open the folder on a new VSCode tab.
-- VI. Go to `src/config.json` because it is also a configuration file.
-- VII. Open terminal and then type `node .\src\bot.js` or `node .`.
-- VIII. Enjoy.
+## Botu Başlatmak için
+Şimdilik kurulum yalnızca [Visual Studio Code](https://code.visualstudio.com/) kullanıcılarına yöneliktir. Repl.it kullanıcısıysanız ve başlangıç ​​seviyesinde olmayan bir programcıysanız aşağıdaki kurulumu okuyabilirsiniz ancak MongoDB ve bot token için config.json dosyasını düzenlemeniz gerekir.
+- I. [Visual Studio Code](https://code.visualstudio.com/) indirin.
+- II. [node.js](https://nodejs.org/en/download/) indirin.
+- III. Komut istemcisini açın `node -v` komutu ile node.js sürümünün **16.9.0** veya üstünü yüklediğinizden emin olun.
+- IV. [Projeyi İndirin](https://github.com/justthendra/discord.js-v14-slash-moderation-bot) ve klasörü .zip klasöründen normal bir klasöre çıkarın.
+- V. Klasörü yeni bir VSCode sekmesinde açın.
+- VI. `src/config.json` dosyasına gidin ve dosyayı düzenleyin.
+- VII. Terminali açın ve `node .\src\bot.js` veya src klasörünün içinde `node .` yazarak botu başlatın.
+- VIII. Tadını çıkarın.
 
-## Hosting
-Due to repl.it rate-limits problems and unsecurities, I always recommend using a VDS.
+## 7/24 Kullanmak için
+Repl.it hız limiti sorunları ve güvensizlikler nedeniyle her zaman VDS kullanmanızı öneririm.
 
-## Issues
-If you have an issue, do not start to panic! Create an issue right [here](https://github.com/justthendra/discord.js-v14-moderation-template/issues) and wait for me or some people to respond to your errors.
-Please remember to not create an issue that includes "it's broken", "not working at all", or other similar comments like these, thank you.
+## Sorunlar
+Bir sorununuz varsa paniğe kapılmayın! [Burada](https://github.com/justthendra/discord.js-v14-slash-moderation-bot/issues) bir sorun oluşturun ve benim veya bazı kişilerin hatalarınıza yanıt vermesini bekleyin.
+Lütfen 'bozuk', 'hiç çalışmıyor' veya buna benzer yorumlar içeren bir konu oluşturmamaya çalışın.
 
-**I would be happy if you add a star to the repo :) .**
+**Repo'ya yıldız eklerseniz sevinirim :)**
+Destekleriniz için ***müteşşekkirim***.
+
+## Lisans
+> MIT license
