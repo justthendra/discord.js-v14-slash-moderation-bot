@@ -21,7 +21,7 @@ module.exports = {
             .setColor(config.embeds.colorSuccessfull)
             .setFooter({text: "Discord.js v14 Moderasyon Bot | Unban", iconURL: interaction.client.user.displayAvatarURL()})
             .setTimestamp()
-            .setURL("https://github.com/justthendra/discord.js-v14-moderation-bot")
+            .setURL("https://github.com/justthendra/discord.js-v14-slash-moderation-bot")
             interaction.reply({embeds: [unbanEmbed]})
             interaction.guild.members.unban(user)
 
@@ -32,7 +32,7 @@ module.exports = {
             .setColor(config.embeds.colorSuccessfull)
             .setFooter({text: "Discord.js v14 Moderasyon Bot | Unban", iconURL: interaction.client.user.displayAvatarURL()})
             .setTimestamp()
-            .setURL("https://github.com/justthendra/discord.js-v14-moderation-bot")
+            .setURL("https://github.com/justthendra/discord.js-v14-slash-moderation-bot")
 
             const channelID = config.guild.channels.modlog;
             const channel = interaction.guild.channels.cache.find(chanell => chanell.id === channelID);
