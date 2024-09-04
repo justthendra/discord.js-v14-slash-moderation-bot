@@ -1,0 +1,29 @@
+{
+    "bot": {
+        "client_id": "",
+        "token": "",
+        "presence": {
+            "status": "dnd",
+            "text": "Coming Soon.."
+        },
+        "mongoUrl": ""
+    },
+    "embeds": {
+        "colorDefault": "#ecc5c0",
+        "colorError": "#FF4949",
+        "colorSuccessfull": "#00FF2B",
+        "ytUrl": "https://github.com/justthendra/discord.js-v14-moderation-bot"
+    },
+    "guild": {
+        "roles": {
+            "member": "",
+            "admin": "",
+            "owner": ""
+        },
+        "channels": {
+            "logins": "",
+            "modlog": "",
+            "message": ""
+        }
+    }
+}
