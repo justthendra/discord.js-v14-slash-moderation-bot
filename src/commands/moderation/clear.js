@@ -37,7 +37,7 @@ module.exports = {
                 })
                 .setTimestamp()
                 .setURL(
-                  "https://github.com/justthendra/discord.js-v14-moderation-bot"
+                  "https://github.com/justthendra/discord.js-v14-slash-moderation-bot"
                 );
               channel.send({ embeds: [logEmbed] });
             }
