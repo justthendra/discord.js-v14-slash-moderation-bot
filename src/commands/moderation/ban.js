@@ -25,7 +25,7 @@ module.exports = {
                 .setDescription(`${user} isimli kullanıcı \`${reason}\` sebebi ile sunucudan yasaklandı.`)
                 .setTimestamp()
                 .setFooter({text: "Discord.js v14 Moderasyon Bot | Kullanıcı yasaklama", iconURL: interaction.client.user.displayAvatarURL()})
-                .setURL("https://github.com/justthendra/discord.js-v14-moderation-bot")
+                .setURL("https://github.com/justthendra/discord.js-v14-slash-moderation-bot")
                 interaction.reply({embeds: [banEmbed]})
                 interaction.guild.members.ban(user, { reason: reason })
 
@@ -37,7 +37,7 @@ module.exports = {
                 .setDescription(`${user} isimli kullanıcı \`${reason}\` sebebi ile sunucudan yasaklandı.`)
                 .setTimestamp()
                 .setFooter({text: "Discord.js v14 Moderasyon Bot | Kullanıcı yasaklama", iconURL: interaction.client.user.displayAvatarURL()})
-                .setURL("https://github.com/justthendra/discord.js-v14-moderation-bot")
+                .setURL("https://github.com/justthendra/discord.js-v14-slash-moderation-bot")
 
                 const channelID = config.guild.channels.modlog;
                 const channel = interaction.guild.channels.cache.find(channell => channell.id === channelID)
