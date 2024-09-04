@@ -49,7 +49,7 @@ module.exports = {
         .setColor(config.embeds.colorSuccessfull)
         .setTimestamp()
         .setFooter({text: "Discord.js v14 Moderasyon Bot | Zamanaşımı", iconURL: interaction.client.user.displayAvatarURL()})
-        .setURL("https://github.com/justthendra/discord.js-v14-moderation-bot")
+        .setURL("https://github.com/justthendra/discord.js-v14-slash-moderation-bot")
         interaction.reply({embeds: [muteEmbed]})
         await user.timeout(duration * 1000)
         
@@ -61,7 +61,7 @@ module.exports = {
         .setColor(config.embeds.colorSuccessfull)
         .setTimestamp()
         .setFooter({text: "Discord.js v14 Moderasyon Bot | Zamanaşımı", iconURL: interaction.client.user.displayAvatarURL()})
-        .setURL("https://github.com/justthendra/discord.js-v14-moderation-bot")
+        .setURL("https://github.com/justthendra/discord.js-v14-slash-moderation-bot")
 
         const channelID = config.guild.channels.modlog;
         const channel = interaction.guild.channels.cache.find(channell => channell.id === channelID)
